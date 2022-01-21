@@ -12,7 +12,7 @@ const App: FC = () => {
   return (
     <div className="App">
       <TodoForm todoList={todoList} setTodoList={setTodoList} />
-      <TodoList todoList={todoList}/>
+      <TodoList todoList={todoList} setTodoList={setTodoList} />
     </div>
   );
 }
