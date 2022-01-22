@@ -10,7 +10,7 @@ const App: FC = () => {
 
   console.log("In app", todoList)
   return (
-    <div className="App">
+    <div className="App bg-slate-600">
       <TodoForm todoList={todoList} setTodoList={setTodoList} />
       <TodoList todoList={todoList} setTodoList={setTodoList} />
     </div>
