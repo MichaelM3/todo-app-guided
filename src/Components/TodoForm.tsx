@@ -26,7 +26,7 @@ export const TodoForm: FC<Props> = ({ todoList, setTodoList }) => {
     }
 
     return (
-        <div className="header">
+        <div className="todoForm">
             <div className="inputContainer">
                 <input type="text" 
                     placeholder='Task...'  
